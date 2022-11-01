@@ -1,8 +1,44 @@
 {
+"BuildMonitorings": [
+    {
+      "Id": 1,
+      "Name": "hello"
+    }
+  ],
 "BuildMonitoring": [
     {
-      "id": 1,
-      "title": "hello"
+      "Id": 1,
+      "Name": "hello",
+      "CentrePoint": { "Longitude" : 77.0, "Latitude": 66.0 },
+      "CountMonitoringPoint" : 2,
+      "PointMonitoring" : [
+          {
+            "Id": 1001,
+            "Name": "ts (1)",
+            "DeviceSerial": 123,
+            "Location": { "Longitude" : 77.01, "Latitude": 66.01 },
+            "StartDate": "2022-10-10T13:00:00Z"
+            "EndDate": "2022-31-10T13:00:00Z"
+          },
+          {
+            "Id": 1002,
+            "Name": "ts (2)",
+            "DeviceSerial": 321,
+            "Location": { "Longitude" : 77.011, "Latitude": 66.011 },
+            "StartDate": "2022-10-10T13:00:00Z"
+            "EndDate": "2022-31-10T13:00:00Z"
+          },
+      ]
     }
+  ],
+  "PointMonitoring": [
+      {
+          "Id":,
+          "thermometricWellName":,
+          "executor":,
+          "serialNumber":,
+          "DateTime":,
+          "temperatureAtDepth":
+      }
   ]
 }
