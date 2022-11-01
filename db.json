@@ -32,8 +32,7 @@
     }
   ],
   "PointMonitoring": [
-      { "Id": 1001,
-         "Array": [{      
+      {      
              "ParentId": 1001,
               "Id":10011,
               "thermometricWellName": "(1-04)-тс1",
@@ -51,10 +50,10 @@
               "serialNumber": 456,
               "DateTime": "2022-10-30T09:53:36.628Z",
               "temperatureAtDepth":[{"Temperature": -7.1111, "Depth":1},{"Temperature": -6.123, "Depth":2},{"Temperature": -5.456, "Depth":3},{"Temperature": -4.789, "Depth":4},{"Temperature": -3.123, "Depth":5}]
-          }]
-      }      ,
-      { "Id": 1002,
-         "Array": [{          
+          },
+      {    
+             
+             "ParentId": 1002,
               "Id":10021,
               "thermometricWellName": "(1-04)-тс2",
               "executor": "someone",
@@ -62,14 +61,15 @@
               "DateTime": "2022-10-31T09:53:36.628Z",
               "temperatureAtDepth":[{"Temperature": -8.2222, "Depth":1},{"Temperature": -7.123, "Depth":2},{"Temperature": -6.456, "Depth":3},{"Temperature": -5.789, "Depth":4},{"Temperature": -4.123, "Depth":5}]
           },
-                  {          
+                  {      
+                      
+             "ParentId": 1002,
               "Id":10022,
               "thermometricWellName": "(1-04)-тс2",
               "executor": "someone",
               "serialNumber": 456,
               "DateTime": "2022-10-30T09:53:36.628Z",
               "temperatureAtDepth":[{"Temperature": -7.3333, "Depth":1},{"Temperature": -6.123, "Depth":2},{"Temperature": -5.456, "Depth":3},{"Temperature": -4.789, "Depth":4},{"Temperature": -3.123, "Depth":5}]
-          }]
-      }
-  ]
+          }
+      ]
 }
