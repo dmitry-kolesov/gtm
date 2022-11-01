@@ -25,20 +25,48 @@
             "Name": "ts (2)",
             "DeviceSerial": 321,
             "Location": { "Longitude" : 77.011, "Latitude": 66.011 },
-            "StartDate": "2022-10-10T13:00:00Z"
+            "StartDate": "2022-10-10T13:00:00Z",
             "EndDate": "2022-31-10T13:00:00Z"
           },
       ]
     }
   ],
   "PointMonitoring": [
-      {
-          "Id":,
-          "thermometricWellName":,
-          "executor":,
-          "serialNumber":,
-          "DateTime":,
-          "temperatureAtDepth":
+      { "Id": 1001,
+         "Array": [{          
+              "Id":10011,
+              "thermometricWellName": "(1-04)-тс1",
+              "executor": "someone",
+              "serialNumber": 456,
+              "DateTime": "2022-10-31T13:00:00Z",
+              "temperatureAtDepth":[{"Temperature": -8.1111, "Depth":1},{"Temperature": -7.123, "Depth":2},{"Temperature": -6.456, "Depth":3},{"Temperature": -5.789, "Depth":4},{"Temperature": -4.123, "Depth":5}]
+          },
+                  {          
+              "Id":10012,
+              "thermometricWellName": "(1-04)-тс1",
+              "executor": "someone",
+              "serialNumber": 456,
+              "DateTime": "2022-10-30T13:00:00Z",
+              "temperatureAtDepth":[{"Temperature": -7.1111, "Depth":1},{"Temperature": -6.123, "Depth":2},{"Temperature": -5.456, "Depth":3},{"Temperature": -4.789, "Depth":4},{"Temperature": -3.123, "Depth":5}]
+          }]
+      }      ,
+      { "Id": 1002,
+         "Array": [{          
+              "Id":10021,
+              "thermometricWellName": "(1-04)-тс2",
+              "executor": "someone",
+              "serialNumber": 456,
+              "DateTime": "2022-10-31T13:00:00Z",
+              "temperatureAtDepth":[{"Temperature": -8.2222, "Depth":1},{"Temperature": -7.123, "Depth":2},{"Temperature": -6.456, "Depth":3},{"Temperature": -5.789, "Depth":4},{"Temperature": -4.123, "Depth":5}]
+          },
+                  {          
+              "Id":10022,
+              "thermometricWellName": "(1-04)-тс2",
+              "executor": "someone",
+              "serialNumber": 456,
+              "DateTime": "2022-10-30T13:00:00Z",
+              "temperatureAtDepth":[{"Temperature": -7.3333, "Depth":1},{"Temperature": -6.123, "Depth":2},{"Temperature": -5.456, "Depth":3},{"Temperature": -4.789, "Depth":4},{"Temperature": -3.123, "Depth":5}]
+          }]
       }
   ]
 }
